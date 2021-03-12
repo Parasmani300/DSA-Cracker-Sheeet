@@ -1,0 +1,56 @@
+ ####################################  Preparing to install ##################################################
+
+//Check if PowerShelllGet is already installed
+
+Get-Module PowerShellGet -list | Select-Object Name,Version,Path
+
+//If Powershell is not installed 
+install-Module -Name PowerShellGet -Force
+Exit
+
+//Install ARM Module
+Install-Module  AzureRM
+
+//Setting execution policy to work even remotely
+set-executionpolicy -ExecutionPolicy RemoteSigned
+
+//Load the Module
+Import-Module AzureRM
+
+//Validate Installation
+Get-Module AzureRM -list | Select-Object Name,Version,Path
+
+
+
+__________________________________________  INSTALL ASM Module ____________________________________________________________________
+Install-Module Azure
+
+//Load the module 
+Import-Module Azure
+
+//Validate Installation 
+Get-Module Azure -list | Select-Object Name,Version,Path
+
+_______________________________________________  Install Using Git Repo _____________________________________________________________
+
+//Login to AzureRM account
+login-AzureRmAccount
+
+
+
+################################################################################################################
+
+
+                            AZURE CLI
+
+    //In Azure CLI the command is structured as 
+    axure <topic> <verb> <options>
+
+            or
+    az <topic> <verb> <options>
+
+    e.g:
+    > azure vm list
+    > azure group create -n MyRG -l centreus
+
+    
