@@ -1,0 +1,18 @@
+Hands-on scenario
+You are a Cloud Engineer working for a service-based organization, and need to configure cloud services for the client as per the 
+following requirements:
+
+i) Virtual Machine: Region: East US, Image: Windows server 2016 Datacenter – Gen1, Size: Standard_B2ms, OS disk type: Standard HDD 
+(connect the VM to the local machine through the RDP and ensure that you can access it). ii) Storage Account: Region: East US, 
+Account kind: StorageV2 (general purpose v2), Replication: Locally-redundant storage (LRS) and 
+File Storage: (Upload a sample file from the local machine to the created file storage account, and confirm that 
+you are able to upload). iii) App Services: Runtime Stack: Python 3.8, OS: Linux, Region: East US, Size: F1 Shared infrastructure, 
+1 GB memory. iv) Network Security Group with the inbound security rule: Region: East US, Source: Any, Source Port Ranges: *, 
+Destination: Any, Destination port ranges: 3389.
+
+Notes:
+
+Use the credentials given in the hands-on to log in to the Azure Portal.
+Create a new resource group and use the same resource group for all resources.
+The Username/Password/Services Name can be as per your choice.
+After completing the hands-on, delete all the resources created.
