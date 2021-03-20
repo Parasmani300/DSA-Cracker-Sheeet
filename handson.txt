@@ -16,3 +16,18 @@ Use the credentials given in the hands-on to log in to the Azure Portal.
 Create a new resource group and use the same resource group for all resources.
 The Username/Password/Services Name can be as per your choice.
 After completing the hands-on, delete all the resources created.
+
+
+
+
+
+
+Google Cloud Essentials
+The following steps are need to be performed by you to gain basic knowledge on Cloud.
+
+The primary step that you have to do in cloud is to create a network in the cloud.
+After creating the network, You will create a subnet in the above network.
+Then you will apply Firewall rules to restrict access to the instances that you will create in the next step.
+In this step you will create a Virtual Machine with the given configurations.
+The final step is Cleaning resources. In this you will perform a delete operation in order to delete
+ the resources that you have created above.
