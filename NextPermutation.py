@@ -26,7 +26,7 @@ def nextPermutation(l):
 
     
 if __name__ == "__main__":
-    l = [1,2,3]
+    l = [9,5,4,3,1]
     nextPermutation(l)
     print(l)
 
